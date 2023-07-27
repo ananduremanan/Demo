@@ -72,47 +72,51 @@
     "answer": "Thor"
   },
   {
-  "puzzle": "🚶‍♂️🌧️",
-  "answer": "Kireedam"
-},
-{
-  "puzzle": "👨‍👩‍👧‍👦🏠",
-  "answer": "Manichitrathazhu"
-},
-{
-  "puzzle": "👨‍👩‍👧‍👦🏞️",
-  "answer": "Nadodikkattu"
-},
-{
-  "puzzle": "🚗💥",
-  "answer": "Thevar Magan"
-},
-{
-  "puzzle": "👨‍❤️‍💋‍👨💔",
-  "answer": "Mouna Ragam"
-},
-{
-  "puzzle": "🎭💃",
-  "answer": "Sagara Sangamam"
-},
-{
-  "puzzle": "🐖💨",
-  "answer": "Valimayi"
-},
-{
-  "puzzle": "🌹",
-  "answer": "Roja"
-},
-{
-  "puzzle": "🐂🏃‍♀️",
-  "answer": "Jallikattu"
-},
-{
-  "puzzle": "🌌",
-  "answer": "Churuli"
-},
-{
-  "puzzle": "💗se",
-  "answer": "Dil Se"
-}
+    "puzzle": "🚶‍♂️🌧️",
+    "answer": "Kireedam"
+  },
+  {
+    "puzzle": "👨‍👩‍👧‍👦🏠",
+    "answer": "Manichitrathazhu"
+  },
+  {
+    "puzzle": "👨‍👩‍👧‍👦🏞️",
+    "answer": "Nadodikkattu"
+  },
+  {
+    "puzzle": "🚗💥",
+    "answer": "Thevar Magan"
+  },
+  {
+    "puzzle": "🕵️‍♂️📜❌",
+    "answer": "Mission: Impossible"
+  },
+  {
+    "puzzle": "👨‍❤️‍💋‍👨💔",
+    "answer": "Mouna Ragam"
+  },
+  {
+    "puzzle": "🎭💃",
+    "answer": "Sagara Sangamam"
+  },
+  {
+    "puzzle": "🐖💨",
+    "answer": "Valimayi"
+  },
+  {
+    "puzzle": "🌹",
+    "answer": "Roja"
+  },
+  {
+    "puzzle": "🐂🏃‍♀️",
+    "answer": "Jallikattu"
+  },
+  {
+    "puzzle": "🌌",
+    "answer": "Churuli"
+  },
+  {
+    "puzzle": "💗se",
+    "answer": "Dil Se"
+  }
 ]
