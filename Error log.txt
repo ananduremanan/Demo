@@ -1,0 +1,68 @@
+com.facebook.react.common.JavascriptException: Invariant Violation: requireNativeComponent: "RNSScreen" was not found in the UIManager.
+
+This error is located at:
+    in RNSScreen
+    in Unknown
+    in Suspender
+    in Suspense
+    in Freeze
+    in DelayedFreeze
+    in InnerScreen
+    in Screen
+    in MaybeScreen
+    in RNSScreenContainer
+    in ScreenContainer
+    in MaybeScreenContainer
+    in RNCSafeAreaProvider
+    in SafeAreaProvider
+    in SafeAreaProviderCompat
+    in BottomTabView
+    in PreventRemoveProvider
+    in NavigationContent
+    in Unknown
+    in BottomTabNavigator
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in ThemeProvider
+    in NavigationContainerInner
+    in App
+    in RCTView
+    in Unknown
+    in RCTView
+    in Unknown
+    in AppContainer, js engine: hermes, stack:
+invariant@1:40624
+getNativeComponentAttributes@1:68408
+anonymous@1:276584
+anonymous@1:64331
+completeWork@1:323434
+completeUnitOfWork@1:336173
+performUnitOfWork@1:336018
+workLoopSync@1:335886
+renderRootSync@1:335770
+performSyncWorkOnRoot@1:333260
+flushSyncCallbacks@1:298548
+scheduleUpdateOnFiber@1:330725
+updateContainer@1:341128
+anonymous@1:350180
+renderElement@1:45841
+renderApplication@1:257955
+run@1:251048
+runApplication@1:251514
+__callFunction@1:49496
+anonymous@1:47994
+__guard@1:48931
+callFunctionReturnFlushedQueue@1:47952
+
+	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.java:65)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.facebook.react.bridge.JavaMethodWrapper.invoke(JavaMethodWrapper.java:372)
+	at com.facebook.react.bridge.JavaModuleWrapper.invoke(JavaModuleWrapper.java:188)
+	at com.facebook.jni.NativeRunnable.run(Native Method)
+	at android.os.Handler.handleCallback(Handler.java:942)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:27)
+	at android.os.Looper.loopOnce(Looper.java:211)
+	at android.os.Looper.loop(Looper.java:300)
+	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$4.run(MessageQueueThreadImpl.java:228)
+	at java.lang.Thread.run(Thread.java:1012)
