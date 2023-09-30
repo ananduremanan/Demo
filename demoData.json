@@ -1,11 +1,11 @@
 [
-  { "id": 1, "name": "Discover Music" },
-  { "id": 2, "pid": 1, "name": "Hot Singles" },
-  { "id": 3, "pid": 1, "name": "Rising Artists" },
-  { "id": 4, "pid": 1, "name": "Live Music" },
-  { "id": 6, "pid": 1, "name": "Best of 2017 So Far" },
-  { "id": 7, "name": "Sales and Events" },
-  { "id": 8, "pid": 7, "name": "100 Albums" },
-  { "id": 9, "pid": 7, "name": "Hip-Hop and R&B Sale" },
-  { "id": 10, "pid": 7, "name": "CD Deals" }
-]
+  { text: 1, value: "Discover Music" },
+  { text: 2, pid: 1, value: "Hot Singles" },
+  { text: 3, pid: 1, value: "Rising Artists" },
+  { text: 4, pid: 1, value: "Live Music" },
+  { text: 6, pid: 1, value: "Best of 2017 So Far" },
+  { text: 7, value: "Sales and Events" },
+  { text: 8, pid: 7, value: "100 Albums" },
+  { text: 9, pid: 7, value: "Hip-Hop and R&B Sale" },
+  { text: 10, pid: 7, value: "CD Deals" },
+];
