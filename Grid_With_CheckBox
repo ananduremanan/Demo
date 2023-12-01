@@ -1,0 +1,65 @@
+import { Grid, CheckBox } from "gbs-fwk-buildingblock";
+import { data } from "./data/globalstatedata";
+import { useEffect, useState } from "react";
+
+export default function () {
+  const [gridData, setGridData] = useState<any[]>([]);
+
+  useEffect(() => {
+    setGridData(data);
+  }, []);
+
+  // let existing: any[] = [];
+
+  const gridTemplate = (props: any) => {
+    const handleCheckbox = () => {
+      let existing: any = localStorage.getItem("SelectedItem");
+      existing = existing ? JSON.parse(existing) : [];
+      const index = existing && existing.indexOf(props.OrderID);
+
+      if (index !== -1) {
+        existing.splice(index, 1);
+      } else {
+        existing.push(props.OrderID);
+      }
+
+      localStorage.setItem("SelectedItem", JSON.stringify(existing));
+    };
+
+    let existing: any = localStorage.getItem("SelectedItem");
+    existing = existing ? JSON.parse(existing) : [];
+    const isChecked = existing && existing.includes(props.OrderID);
+
+    return <CheckBox checked={isChecked} onChange={handleCheckbox} />;
+  };
+
+  const columns = [
+    {
+      field: "OrderID",
+      width: "200",
+      textAlign: "Right",
+      template: gridTemplate,
+    },
+    { field: "CustomerID", width: "100" },
+    { field: "EmployeeID", width: "100", textAlign: "Right" },
+    {
+      field: "Freight",
+      headerText: "Frieght",
+      width: "200",
+    },
+    { field: "ShipCountry", width: "200" },
+    { field: "ShipAddress", width: "150" },
+  ];
+
+  return (
+    <div>
+      <Grid
+        pageSize={6}
+        dataSource={gridData}
+        allowPaging={true}
+        columns={columns}
+        id={"grid"}
+      />
+    </div>
+  );
+}
